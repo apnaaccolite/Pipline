@@ -1,0 +1,16 @@
+trigger: none
+
+parameters:
+  - name: image
+  displayName: Pool image
+  default: macOS - latest
+  type: string
+  values: 
+  - windows-latest
+  - ubuntu-latest
+
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
